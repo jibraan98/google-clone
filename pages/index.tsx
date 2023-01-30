@@ -51,7 +51,7 @@ export default function Home() {
             <Squares2X2Icon  className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'/>
 
             {/* {Avatar} */}
-            <Avatar url='https://c4.wallpaperflare.com/wallpaper/430/896/23/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg'/>
+            <Avatar url='https://c4.wallpaperflare.com/wallpaper/430/896/23/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg' className=''/>
         </div>
       </header>
 
