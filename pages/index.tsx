@@ -17,7 +17,8 @@ export default function Home() {
 
   const search = (e: { preventDefault: () => void }) => {
     e.preventDefault()
-    const term = searchInputRef.current.value;
+    const term = searchInputRef.current?.value;
+    
     
     if(!term) return;
 
